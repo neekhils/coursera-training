@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.75em;
+  }  
+
+  center {
+      text-align: left;
+  }
+  .floatTopRight {
+    float:right;
+    width: 120px;
+    text-align: center;
+    padding:4px 5px 4px 5px;
+    font-weight: bold;
+    font-size: 1.25em;
+    border:1px solid black;
+    position: relative;
+    top:-1px;
+    right:-1px;  
+  }
+
+  .padding1 {
+    padding: 10px;
+  }
+
+  .Right1{
+    background-color: #D59898;
+    }
+  .Right2{
+    background-color: #C14543;
+    color: white;
+    }
+  .Right3{
+    background-color: #E5D198;
+    }
+
+    .container {
+        width: 96%;
+        margin: 0px auto;
+    }
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-1 {
+      float: left;
+      background-color: #999999;
+      margin: 10px;
+      height: 220px;
+      width: 31%;
+      border:1px solid black;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1 {
+      float: left;
+      background-color: #999999;
+      margin: 10px;
+      height: 200px;
+      width: 47%;
+      border:1px solid black;
+    }
+    .col-md-2 {
+        float: left;
+        background-color: #999999;
+        margin: 10px;
+        width: 96.5%;
+        height: 200px;
+        border:1px solid black;
+      }
+    }
+  /********** Small devices only **********/
+  @media (max-width: 767px) and (min-width: 10px) {
+    .col-sm-1 {
+      background-color: #999999;
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      width: 97%;
+      border:1px solid black;
+    }
+}
+  
