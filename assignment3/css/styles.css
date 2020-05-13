@@ -11,10 +11,10 @@ body {
   border: 0;
   height: 60px;
 }
-
-.text-center{
-margin-top:110px ;
+.nav-list {
+  border: 2px solid black;
 }
+
 .navbar-brand {
   padding-top: 20px;
 }
@@ -110,5 +110,9 @@ margin-top:110px ;
   #nav-list a span {
     font-size: 1.8em;
   }
+  h2.text-center {
+    margin-top:110px ;
+    }
+    
   
 }
